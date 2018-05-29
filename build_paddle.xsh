@@ -12,7 +12,8 @@ subprocess.call("WITH_TESTING=OFF "
     "WITH_GPU=ON "
     "WITH_STYLE_CHECK=OFF "
     "WITH_FLUID_ONLY=ON "
-    "WITH_MKL=OFF "
+    "WITH_MKL=ON "
+    "WITH_MKLDNN=ON "
     "WITH_DISTRIBUTE=ON "
     "paddle/scripts/paddle_build.sh build",
     shell=True,
